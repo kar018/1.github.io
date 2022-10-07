@@ -1,0 +1,74 @@
+/* My first css document*/
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+background-color: rgba(85, 197, 149, 0.975);
+}
+
+img{
+
+    border: 5px solid black;
+}
+
+
+blockquote{
+color: #D3B3E4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 2rem;
+font-style: italic;
+text-align: center;
+}
+
+cite{
+
+    font-size:1.5rem;
+}
+
+.bigbold{
+
+    font-weight: bold;
+    font-size: 1.35rem;
+}
+.color{
+    color:rgb(39, 146, 60);
+    font-size: 1.9rem;
+    text-align: center;
+}
+h2, h3{
+    text-align: center;
+}
+
+ol{
+color: darkslategray;
+}
+
+ul a:link{
+    font-weight: bold;
+    text-decoration: none;
+    color:darkslateblue;
+}
+a:visited{
+
+    color: green;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+a:hover{
+color: black;
+    background-color:darkslategray
+    text-decoration: underline;
+
+}
+a.harvard:visited{
+
+    color:maroon;
+}
+
+#myid{
+
+    color: blueviolet;
+    text-align: center;
+}
